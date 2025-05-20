@@ -9,10 +9,7 @@
 
 
 function updateCookieCount() {
-  if (sessionStorage.savedCookieNumber) {
-    
-  }
-  else {
+  if (sessionStorage.savedCookieNumber = false) {
     sessionStorage.savedCookieNumber = 0
   }
   document.getElementById("answer").innerHTML = 
